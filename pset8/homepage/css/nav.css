@@ -1,0 +1,62 @@
+nav ul,nav p
+{
+display:flex;
+display:-webkit-flex;
+-webkit-flex-wrap: wrap;
+ flex-wrap: wrap;
+list-style-type:none;
+margin:0;
+padding:0;
+color:white;
+width:100%;
+}
+nav ul li,nav p
+{
+flex:1 0 200px;
+-webkit-flex:1 0 200px;
+margin:0;
+padding:0;
+color:white;
+width:100%;
+background-color:#D8BFD8;
+}
+nav ul li a:link,nav p
+{
+display:block;
+color:white;
+background-color:#D8BFD8;
+text-decoration:none;
+padding:0.15em ;
+margin:0;
+text-align:center;
+text-shadow: 4px 4px 10px black, 0 2px #092834;
+font-family: Comic Sans MS;
+font-size:2em;
+}
+nav ul li a:visited,nav p
+{
+color:white;
+display:block;
+text-decoration:none;
+background-color:#D8BFD8;
+}
+nav ul li a:hover,nav p
+{
+background-color:#D8BFD8;
+text-decoration: none;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size:2em;
+font-weight:bolder;
+text-shadow: 4px 4px 20px black, 0 3px #092834; /*adds a shadow when user hovers
+*/
+color:white;
+}
+nav ul li a.current_page,nav p
+{
+background-color:p;
+text-decoration: none;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size:2em;
+text-shadow: 4px 4px 20px black, 0 3px teal;
+color:white;
+}

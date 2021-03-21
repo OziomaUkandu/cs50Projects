@@ -1,0 +1,21 @@
+
+ h1{
+   text-align:center;
+   font-family:serif;
+   font-weight:normal;
+   text-transform:uppercase;
+   border-bottom: 1px solid#57b1dc;
+    margin-top:30px;
+    color:#8A2BE2
+    }
+  .top  /*there's a class called top to resize all the images at the top of the page*/
+  {
+  width:200px;
+  height:154px;
+      margin-left: auto;
+      margin-right: auto;
+    width: 8em
+
+
+  }
+  
